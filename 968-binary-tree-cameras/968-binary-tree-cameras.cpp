@@ -19,7 +19,7 @@ public:
     
     int status(TreeNode* root,int &n){
         
-        //Base case in NULL node returns (1) as it don't has camera and  if it returns 0 then the actuall end node of the tree will install camera which is not needed as it will be watched by its parent's camera.
+        //Base case in NULL node returns (1) as it don't has camera and  if it returns 0 then the actual end node of the tree will install camera which is not needed as it will be watched by its parent's camera.
         if(root == NULL){
             return 1;
         }
